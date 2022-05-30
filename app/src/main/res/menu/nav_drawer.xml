@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="item"
+
+    >
+
+    <item android:id="@+id/search_action"
+        android:title="Search"
+        app:showAsAction="always"
+        android:icon="@drawable/icons8_search_48px"
+        app:actionViewClass="android.widget.SearchView" />
+
+
+
+    <item android:icon="@drawable/icons8_paint_palette_48px"
+        android:title="Themes"
+        android:id="@+id/themesNav"/>
+
+    <item android:icon="@drawable/icons8_home_48px"
+        android:title="Home"
+        android:id="@+id/home_Nav"/>
+
+    <item android:icon="@drawable/icons8_info_48px"
+        android:title="About"
+        android:id="@+id/About_Nav"/>
+
+    <item android:icon="@drawable/icons8_high_importance_48px"
+        android:title="Exit"
+        android:id="@+id/Exit_Nav"/>
+
+
+
+
+
+</menu>

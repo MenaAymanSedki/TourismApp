@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:outlineSpotShadowColor="@color/Blue"
+    android:padding="3dp"
+    android:background="@color/Whitesmoke"
+    tools:context=".UrlActivty">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:outlineAmbientShadowColor="@color/Blue"
+        android:outlineSpotShadowColor="@color/Blue">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Steigenberger ALDAU Beach Hotel"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/UrlGoogle"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:scaleType="centerCrop"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/steigenberger_al_dau" />
+
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star"/>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Titanic Royal Resort Hotel"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star"/>
+
+                <ImageView
+                    android:id="@+id/titanicRoyal"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/titanic_royal" />
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Mamlouk Palace Resort"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star"/>
+                <ImageView
+                    android:id="@+id/Mamlouk"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sentido_mamlouk_palace" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Sunny Days El Palacio Resort"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star" />
+
+                <ImageView
+                    android:id="@+id/sunny"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sunny_days_el_palacio" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Baron Palace Sahl Hasheesh"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star"/>
+                <ImageView
+                    android:id="@+id/baron"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/baron_palace_sahl_hasheesh__1_" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Tropitel Sahl Hasheesh"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+
+                <ImageView
+
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star"/>
+                <ImageView
+                    android:id="@+id/Tropitel"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tropitel_sahl_hasheesh" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Hilton Hurghada Plaza"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star"/>
+                <ImageView
+                    android:id="@+id/Hilton"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hilton_hurghada_plaza" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Meraki Resort"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star"/>
+                <ImageView
+                    android:id="@+id/Meraki"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:scaleType="centerCrop"
+                    android:layout_marginEnd="12dp"
+                    android:src="@drawable/meraki_resort" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Muntajae Jaz 'Akwamarin"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star"/>
+                <ImageView
+                    android:id="@+id/Muntajae"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/water_slides" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Swiss Inn Resort Hurghada"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star"/>
+                <ImageView
+                    android:id="@+id/Swiss"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/swiss_inn_resort_hurghada" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Diamond Cairo apartment 4Bed Rooms"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star"/>
+                <ImageView
+                    android:id="@+id/Diamond_Cairo"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/diamond_cairo" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Fouly Apartments"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star"/>
+                <ImageView
+                    android:id="@+id/Fouly_Cairo"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fouly_apartments" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Porto Sokhna Beach Resort"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star"/>
+                <ImageView
+                    android:id="@+id/porto_sokhna"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/porto" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="St.Marie House"
+                    android:textColor="@color/Black"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star" />
+
+                <ImageView
+                    android:id="@+id/mariam_house"
+                    android:layout_width="383dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mariam_hotel" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginTop="250dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Galaxy royal suites hotel"
+                    android:textColor="@color/Black"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="121dp"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="255dp"
+                    android:layout_marginTop="235dp"
+                    android:src="@drawable/five_star" />
+
+                <ImageView
+                    android:id="@+id/galaxy_hotel"
+                    android:layout_width="383dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="12dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/galaxy_hotel" />
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/Question"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/question_mark" />
+
+</RelativeLayout>
